@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App'; // default react App module
+// change this to import own react module
+import App from './Module 1 - Introduction/Course 1 - Setting the stage with modern JavaScript features/App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
