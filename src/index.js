@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 1 - Introduction/Course 6 - defaultProps and propTypes Practice/App'
+import App from './Module 2 - Reuseability/Course 2 - React Children/App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
