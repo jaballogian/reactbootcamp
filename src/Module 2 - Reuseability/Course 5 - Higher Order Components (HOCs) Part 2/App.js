@@ -9,5 +9,10 @@ function App(props){
     )
 }
 
-const hOCComponent = withHOC(App)
-export default hOCComponent
+// first way to use HOC
+// const hOC = withHOC(App)
+// export default hOC
+
+// second way to use HOC (with extra props)
+const extraPropsHOC = withExtraPropsHOC(App)
+export default extraPropsHOC
