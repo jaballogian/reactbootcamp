@@ -5,7 +5,7 @@ import ThemeContext from './themeContext'
 
 function App(){
     return(
-        <ThemeContext.Provider value="light">
+        <ThemeContext.Provider value="dark">
             <div>
                 <Header/>
                 <Button/>
