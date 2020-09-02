@@ -1,7 +1,14 @@
-import React, {PureComponent} from 'react'
+import React from 'react'
 import Parent from './Parent'
 
-class GrandParent extends PureComponent{
+class GrandParent extends React.Component{
+    shouldComponentUpdate(nextProps, nextState){
+        if(nextProps.count === this.props.count){
+            return false
+        }
+        return true
+    }
+    
     render(){
         console.log("[👴🏼]   [ ]   [ ]   [ ] rendered")
         return(

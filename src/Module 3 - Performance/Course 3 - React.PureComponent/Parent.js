@@ -1,7 +1,7 @@
-import React, {PureComponent} from 'react'
+import React from 'react'
 import Child from './Child'
 
-class Parent extends PureComponent{
+class Parent extends React.Component{
     render(){
         console.log("[ ]   [👩🏼‍⚕️]   [ ]   [ ] rendered")
         return(
