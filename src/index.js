@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 2 - Reuseability/Course 10 - Render Props Part 3/App'
+import App from './Module 2 - Reuseability/Course 11 - Challenge Render Props/App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App somePropHere="Hi there!"/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
