@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 5 - React Hooks/Course 3 - useState() Part 2 - Changing State/App'
+import App from './Module 5 - React Hooks/Course 4 - useState Part 3 - Changing More Complex State/App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
