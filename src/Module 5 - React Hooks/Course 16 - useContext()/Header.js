@@ -3,11 +3,21 @@ import './Styles.css'
 import {ThemeContext} from './themeContext'
 
 function Header(){
-    const context = useContext(ThemeContext)
-    
+    // first way: without using destructuring
+    // const context = useContext(ThemeContext)
+
+    // second way: without using destructuring
+    const {theme} = useContext(ThemeContext)
+
     return(
-        <header className={`${context.theme}-theme`}>
-            <h2>This header uses {context.theme === "light" ? "Light" : "Dark"} Theme</h2>
+        // first way: without using destructuring
+        // <header className={`${context.theme}-theme`}>
+        //     <h2>This header uses {context.theme === "light" ? "Light" : "Dark"} Theme</h2>
+        // </header>
+
+        // second way: without using destructuring
+        <header className={`${theme}-theme`}>
+            <h2>This header uses {theme === "light" ? "Light" : "Dark"} Theme</h2>
         </header>
     )
 }
