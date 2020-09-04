@@ -15,7 +15,10 @@ function useCounter(){
     }
 
     // first way: return function using object "{}"
-    return {count, increment}
+    // return {count, increment}
+
+    // second way: return function using array "[]"
+    return [count, increment]
 }
 
 export default useCounter
