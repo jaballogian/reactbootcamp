@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 6 - React Router/Course 3 - React Router - Link/Index'
+import App from './Module 6 - React Router/Course 4 - React Router - Switch & Route/Index'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
