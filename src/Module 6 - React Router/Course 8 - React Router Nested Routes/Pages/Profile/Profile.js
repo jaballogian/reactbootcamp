@@ -1,7 +1,5 @@
 import React from 'react'
-import {Switch, Route, Link} from 'react-router-dom'
-import Info from './Info'
-import Settings from './Settings'
+import {Link} from 'react-router-dom'
 
 function Profile(){
     return(
@@ -17,16 +15,6 @@ function Profile(){
                     <Link to="/profile/settings">Go to profile settings page</Link>
                 </li>
             </ul>
-
-            <Switch>
-                <Route path="/profile/info">
-                    <Info/>
-                </Route>
-
-                <Route path="/profile/settings">
-                    <Settings/>
-                </Route>
-            </Switch>
         </div>
     )
 }
