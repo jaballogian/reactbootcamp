@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 5 - React Hooks/Course 20 - Speed Typing Game Part 8/App'
+import App from './Module 6 - React Router/Course 3 - React Router - Link/Index'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
