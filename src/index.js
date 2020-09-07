@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 7 - Capstone Project/Course 14 - Indicate When Image is Already in Cart/Index'
+import App from './Module 7 - Capstone Project/Course 15 - Remove From Cart/Index'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
