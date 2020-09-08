@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 8 - Redux/Course 6 - Plain JS Redux Practice 1/App'
+import App from './Module 8 - Redux/Course 11 - Plain JS Redux - Handling more complex state/App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
