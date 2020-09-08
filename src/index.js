@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 7 - Capstone Project/Course 22 - Custom Hover Hook/Index'
+import App from './Module 8 - Redux/Course 6 - Plain JS Redux Practice 1/App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
