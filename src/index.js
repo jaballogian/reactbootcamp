@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
 // change this to import own react module
-import App from './Module 8 - Redux/Course 22 - Redux in React - mapDispatchToProps/Index'
+import App from './Module 8 - Redux/Course 23 + 24 - Redux in React - useSelector() + Redux in React - useDispatch()/Index'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
